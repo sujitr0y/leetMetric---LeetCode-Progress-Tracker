@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(159, 155, 155);
+    color: rgb(186, 221, 241);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: rgb(122, 79, 79);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input{
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+
+}
+
+#search-btn{
+    border-radius: 5px;
+    padding: .4rem;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(8, 229, 100);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    columns: white;
+    font-weight: 700;
+    background: conic-gradient(#299f5d var(--progress-degree, 0%), #283a2e 0%);
+    flex-direction: column;
+}
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.card{
+    background-color: rgb(168, 125, 8);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
